@@ -10,12 +10,13 @@ Hry
 
 Hardware
   Nové komponenty (GPU, CPU, konzole)
-  Testy a recenze
-Doporučené sestavy
- Low budget (odpočinkový hráč)
- Střední třída (gamer)
- High-end (nadšenec / AAA hráč)
- guid 
+  Doporučené sestavy
+    Low budget (odpočinkový hráč)
+   Střední třída (gamer)
+   High-end (nadšenec / AAA hráč)
+   guid 
+color palet:https://coolors.co/5d737e-fcfcfc-000000
+zakládní nějáka struktura ve figmě: https://www.figma.com/site/AnrDhcFiIk2IN0CNDoNIz9/Untitled?node-id=0-1&p=f&t=zfZWjemIHUXe2gAP-0
  
 
-Informace: doporučené sestavy pro hraní("gamer", odpočinkový hráč, "nadšenec pro přéběhovky", -> tyhle pod tituly by se zaměřovaly na pc sestavy) 
+
