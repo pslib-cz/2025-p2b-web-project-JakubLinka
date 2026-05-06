@@ -51,7 +51,5 @@ Web zaměřený na aktuální dění ve světě videoher, hardwaru a herní kult
 
 ---
 
-odkaz na layout a design ve figme podle vseho jde i mobilní rozhraní:https://www.figma.com/make/GC5SBttAv7gxt2yWLDHMuU/Article-Detail-Page-Design?p=f&t=korOP8CkNBSZuxFg-0
-
 
 
