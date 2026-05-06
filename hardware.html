@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware | Herní portál</title>
+  <meta name="description" content="Vše o herním hardwaru: grafické karty, procesory a konzole.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Herní<span>Portál</span></a>
+      
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      
+      <nav class="nav-links">
+        <a href="index.html">Homepage</a>
+        <a href="novinky.html">Novinky</a>
+        <a href="hry.html">Hry</a>
+        <a href="hardware.html" class="active">Hardware</a>
+        <a href="sestavy.html">Sestavy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div style="display: grid; grid-template-columns: 1fr; gap: 4rem; margin-top: 2rem;">
+      
+      <!-- GPU Section -->
+      <section>
+        <h2 class="section-title" style="margin-top: 0; border-color: #76b900;">Grafické karty (GPU)</h2>
+        <div class="grid-3">
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Grafická karta Nvidia">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Recenze</div>
+              <h3 class="card-title"><a href="#">NVIDIA RTX 5090: Monstrózní výkon za prémiovou cenu</a></h3>
+              <p class="card-excerpt">Testovali jsme novou vlajkovou loď. Skok ve výkonu je obrovský, ale spotřeba také.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Grafická karta AMD">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Novinka</div>
+              <h3 class="card-title"><a href="#">AMD odpovídá řadou Radeon RX 8000</a></h3>
+              <p class="card-excerpt">Zaměření na střední třídu se AMD vyplácí. Nové modely nabídnou skvělý poměr cena/výkon.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Základní deska a GPU">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Téma</div>
+              <h3 class="card-title"><a href="#">Má ještě smysl kupovat 8GB grafické karty?</a></h3>
+              <p class="card-excerpt">Moderní hry jsou stále náročnější na VRAM. Zjišťovali jsme, kde je současné minimum pro 1440p hraní.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CPU Section -->
+      <section>
+        <h2 class="section-title" style="margin-top: 0; border-color: #0071c5;">Procesory (CPU)</h2>
+        <div class="grid-3">
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Procesor">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Test</div>
+              <h3 class="card-title"><a href="#">Intel Core Ultra 9 v testu: Nová architektura v akci</a></h3>
+              <p class="card-excerpt">Intel přechází na čipletový design. Jak si poradí s nekompromisními herními zátěžemi?</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Chlazení procesoru">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Recenze</div>
+              <h3 class="card-title"><a href="#">Ryzen 7 9800X3D: Nový král herních procesorů</a></h3>
+              <p class="card-excerpt">Díky 3D V-Cache technologii AMD opět ukazuje zádům konkurenci v herním výkonu.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Teplovodivá pasta">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Návod</div>
+              <h3 class="card-title"><a href="#">Jak správně nanést teplovodivou pastu?</a></h3>
+              <p class="card-excerpt">Základní údržba, která může snížit teploty vašeho procesoru i o 10 stupňů Celsia.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Konzole Section -->
+      <section>
+        <h2 class="section-title" style="margin-top: 0; border-color: #003791;">Konzole</h2>
+        <div class="grid-3">
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="PS5 Konzole">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Spekulace</div>
+              <h3 class="card-title"><a href="#">PlayStation 6: Co zatím víme?</a></h3>
+              <p class="card-excerpt">První úniky naznačují, že Sony už naplno pracuje na další generaci, která slibuje plnohodnotný ray-tracing.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1621259182978-fbf93132e53d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Xbox Ovladač">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Novinka</div>
+              <h3 class="card-title"><a href="#">Nová revize Xbox Series X přichází bez mechaniky</a></h3>
+              <p class="card-excerpt">Microsoft následuje trend digitální distribuce s novým, levnějším modelem v bílé barvě.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a href="#" class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1612404730960-5c71577fca11?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Nintendo Switch">
+            </a>
+            <div class="card-content">
+              <div class="card-meta">Oznámení</div>
+              <h3 class="card-title"><a href="#">Switch 2 oficiálně potvrzen na rok 2026</a></h3>
+              <p class="card-excerpt">Nintendo konečně prolomilo mlčení. Nástupce nejprodávanější hybridní konzole je za rohem.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo">Herní<span>Portál</span></a>
+          <p class="footer-desc">Váš každodenní zdroj těch nejžhavějších novinek, recenzí a zajímavostí ze světa her a hardwaru.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Kategorie</h4>
+          <ul>
+            <li><a href="novinky.html">Novinky</a></li>
+            <li><a href="hry.html">Hry</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="sestavy.html">Sestavy</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>O portálu</h4>
+          <ul>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Redakce</a></li>
+            <li><a href="#">Podmínky použití</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Herní Portál. Všechna práva vyhrazena.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
