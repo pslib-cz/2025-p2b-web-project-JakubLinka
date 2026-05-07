@@ -51,5 +51,5 @@ Web zaměřený na aktuální dění ve světě videoher, hardwaru a herní kult
 
 ---
 
-
+Mám dostat za 5 za neudělaání diagramů
 
