@@ -51,5 +51,6 @@ Web zaměřený na aktuální dění ve světě videoher, hardwaru a herní kult
 
 ---
 
-Mám dostat za 5 za neudělaání diagramů
+Mám dostat za 5 za neudělání diagramů
+9.5 zkontrolovat web jak je na mobilu kdyz tak upravit
 
