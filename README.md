@@ -52,5 +52,6 @@ Web zaměřený na aktuální dění ve světě videoher, hardwaru a herní kult
 ---
 
 Mám dostat za 5 za neudělání diagramů
-9.5 zkontrolovat web jak je na mobilu kdyz tak upravit
-
+ - 9.5 zkontrolovat web jak je na mobilu kdyz tak upravit
+ - 9.5 uprava css kodu na pozadavky mobile first, predelani obrazku na tema clanku( zitra poupravit par obrazku nevejdou se) problem s github pages nove obrazky se nanacite az po refreshi- 
+ - 10.5 pridani tllacitka koupit na strance sestavy
