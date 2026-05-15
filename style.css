@@ -577,7 +577,7 @@ h3 {
 .games-layout {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .games-layout {
@@ -663,7 +663,7 @@ h3 {
 .section-title-top {
   border-left: 6px solid var(--primary);
   padding-left: 1rem;
-  margin: 3rem 0 2rem;
+  margin: 3rem 0 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 3rem;
