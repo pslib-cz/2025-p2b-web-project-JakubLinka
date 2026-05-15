@@ -38,6 +38,55 @@
         vybíráme ty nejvýhodnější kombinace komponent pro hraní na PC. Ať už máte omezený rozpočet, nebo chcete hrát ve
         4K bez kompromisů, u nás si vyberete.</p>
     </div>
+    <!-- Hlavní kontejner carouselu -->
+    <div class="carousel-wrapper">
+      <!-- Skryté radio buttony pro CSS logiku přepínání -->
+      <input type="radio" name="sestavy-carousel" id="sestava-slide-1" checked>
+      <input type="radio" name="sestavy-carousel" id="sestava-slide-2">
+      <input type="radio" name="sestavy-carousel" id="sestava-slide-3">
+
+      <!-- Kontejner pro všechny posuvné slidy -->
+      <div class="carousel-track">
+
+        <!-- Slide 1 -->
+        <div class="carousel-slide">
+          <!-- Sem v budoucnu přijde obrázek: <img src="..." alt="..."> -->
+          <div class="carousel-overlay">
+            <h2 class="carousel-title">Herní sestava Alpha</h2>
+            <p class="carousel-desc">Nekompromisní výkon pro hraní ve 4K rozlišení s ray-tracingem na maximální detaily.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+          <!-- Sem v budoucnu přijde obrázek: <img src="..." alt="..."> -->
+          <div class="carousel-overlay">
+            <h2 class="carousel-title">Herní sestava Beta</h2>
+            <p class="carousel-desc">Zlatá střední cesta. Ideální poměr cena/výkon pro plynulý 1440p gaming.</p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+          <!-- Sem v budoucnu přijde obrázek: <img src="..." alt="..."> -->
+          <div class="carousel-overlay">
+            <h2 class="carousel-title">Herní sestava Gamma</h2>
+            <p class="carousel-desc">Skvělý start do světa PC her za velmi dostupnou cenu pro každého hráče.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigační tečky pro přepínání -->
+      <div class="carousel-pagination">
+        <label for="sestava-slide-1" class="carousel-dot"></label>
+        <label for="sestava-slide-2" class="carousel-dot"></label>
+        <label for="sestava-slide-3" class="carousel-dot"></label>
+      </div>
+    </div>
+
+
 
     <!-- Low Budget -->
     <div class="build-tier">
