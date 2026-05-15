@@ -661,7 +661,12 @@ h3 {
 
 
 .section-title-top {
-  margin-top: 3rem;
+  border-left: 6px solid var(--primary);
+  padding-left: 1rem;
+  margin: 3rem 0 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 3rem;
 }
 
 .update-list {
