@@ -382,7 +382,7 @@ h3 {
 }
 
 .list-card:hover {
-  transform: translateX(5px);
+  transform: scale(1.02);
   box-shadow: var(--shadow-md);
   border-color: var(--primary);
 }
@@ -601,7 +601,7 @@ h3 {
 
 .section-title {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section-description {
@@ -662,7 +662,7 @@ h3 {
 .section-title-top {
   border-left: 6px solid var(--primary);
   padding-left: 1rem;
-  margin: 3rem 0 1rem;
+  margin: 3rem 0 2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 3rem;
